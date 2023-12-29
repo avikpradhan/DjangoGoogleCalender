@@ -7,8 +7,6 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 import os
 
 
-# Set to True to enable OAuthlib's HTTPs verification when running locally.
-# *DO NOT* leave this option enabled in production.
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 
